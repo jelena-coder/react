@@ -5,5 +5,5 @@ export const getBoja = broj => {
   if (broj === 0) {
     return 'pink';
   }
-  return crveniBrojevi.includes(broj) ? 'blue' : 'white';
+  return crveniBrojevi.includes(broj) ? 'blue' : 'black';
 }
