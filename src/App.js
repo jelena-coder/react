@@ -8,7 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      
+      <Routes>
+        <Route path='/statistika' element={<Statistika pokusaji={pokusaji} />} />
+        
+      </Routes>
     </BrowserRouter>
   );
 }
