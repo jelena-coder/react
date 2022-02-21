@@ -69,7 +69,7 @@ export default function Igra({ pokusaji, dodajPokusaj }) {
         <div className='col-1'>
 
         </div>
-        <div className='col-4 igra'></div>
+        
       </div>
     </div>
   );
