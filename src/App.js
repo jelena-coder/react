@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import { useState } from 'react';
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom'; 
 import './App.css';
 import Navbar from './components/Navbar';
 import Igra from './pages/Igra';

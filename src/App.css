@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.pink {
+  background-color:pink;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+.black {
+  background-color: black;
+  color: white;
+}
