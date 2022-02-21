@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Igra from './pages/Igra';
 import Statistika from './pages/Statistika';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [pokusaji, setPokusaji] = useState([]);
