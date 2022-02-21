@@ -43,9 +43,9 @@ export default function Igra({ pokusaji, dodajPokusaj }) {
             <button
               disabled={ulog <= 0}
               onClick={() => {
-                const broj = Math.floor(37 * Math.random());
+                const broj = Math.floor(42 * Math.random());
                 const b = getBoja(broj)
-                const d = b === boja ? ulog * 2 : 0
+                const d = b === boja ? ulog * 4 : 0
                 setDobitak(d);
                 dodajPokusaj({
                   broj,
