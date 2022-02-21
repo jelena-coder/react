@@ -59,7 +59,7 @@ export default function Igra({ pokusaji, dodajPokusaj }) {
               dobitak !== undefined && (
                 <div className='mt-3 display-4'>
                   {
-                    dobitak <= 0 ? 'Nazalost niste pogodili boju' : 'Dobitak ' + dobitak + ' EUR'
+                    dobitak <= 0 ? 'Nazalost niste pogodili boju' : 'Dobitak ' + dobitak + ' DIN'
                   }
                 </div>
               )
@@ -69,7 +69,7 @@ export default function Igra({ pokusaji, dodajPokusaj }) {
         <div className='col-1'>
 
         </div>
-        <div className='col-4 roulette'></div>
+        <div className='col-4 igra'></div>
       </div>
     </div>
   );

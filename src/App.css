@@ -36,8 +36,8 @@
     transform: rotate(360deg);
   }
 }
-.pink {
-  background-color:pink;
+.yellow {
+  background-color:yellow;
   color: white;
 }
 
@@ -49,3 +49,4 @@
   background-color: black;
   color: white;
 }
+
